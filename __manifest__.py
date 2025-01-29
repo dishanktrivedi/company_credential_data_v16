@@ -10,6 +10,7 @@
 
     'data': ['security/ir.model.access.csv',
              'views/res_company.xml',
+             'views/res_users.xml',
              'views/company_credentials_data_views.xml',
              ],
 

@@ -10,3 +10,4 @@ class CompanyCredentialsData(models.Model):
     password = fields.Text(string="Password")
     description = fields.Text(string="Description")
     company_id = fields.Many2one('res.company', string="Company ID")
+    user_id = fields.Many2one('res.users', string="User ID")
