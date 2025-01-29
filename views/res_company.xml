@@ -7,6 +7,7 @@
         <field name="type">form</field>
         <field name="inherit_id" ref="base.view_company_form"/>
         <field name="arch" type="xml">
+            <!-- Will Add Credential tab at the end of the notebook pages -->
             <xpath expr="//page[last()]" position='after'>
                 <page string="Credentials">
                     <tree>
