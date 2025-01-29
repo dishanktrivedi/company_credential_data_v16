@@ -1,11 +1,9 @@
-# -*- coding: utf-8 -*-pack
 {
     # App information
     'name': 'Company Credential Data',
     'category': 'Module',
     'version': '16.0.0',
-    'summary': """""",
-    'description': """ """,
+    'summary': """ This MOdule Will Credential Tab to the form view of company and users to store their respective credential in the system.""",
     'depends': ['base'],
 
     'data': ['security/ir.model.access.csv',

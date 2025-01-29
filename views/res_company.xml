@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
+    <!-- Form view extension to add credentials tab in Company settings -->
     <record id="company_credential_data_views_form" model="ir.ui.view">
         <field name="name">company_credential configuration</field>
         <field name="model">res.company</field>
